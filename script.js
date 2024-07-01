@@ -12,8 +12,12 @@ if(userprompt == 'Admin'){
     }
     else {
         alert("Wrong password");
+        console.log("Wrong password");
     }
 
 }else if(userprompt == '' || userprompt == null){
-    alert("Wrong password")
+    alert("I don't know you");
+}
+else {
+    alert("I don't know you");
 }
